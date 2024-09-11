@@ -1,0 +1,40 @@
+body{
+    background-image: linear-gradient(#DF138D, #d813df);
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 590px;
+    margin: 20px;
+}
+
+button{
+    background-color: rgb(204, 43, 43);
+    font-family: "Roboto Mono", monospace;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    border-color:rgb(102, 32, 168);
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width:90%;
+    }
+
+img {
+    max-width: 90%;
+}
+
+#passo-9 img {
+    max-width: 30%;
+}
